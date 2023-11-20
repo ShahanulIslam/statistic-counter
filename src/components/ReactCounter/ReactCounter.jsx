@@ -36,7 +36,7 @@ const ReactCounter = () => {
                 <div className="bg-white text-black p-8 rounded-2xl space-y-3 transform transition hover:scale-105">
                     {/* <BsFillPersonCheckFill className="text-[#20e494] text-5xl mx-auto"></BsFillPersonCheckFill> */}
                     <h1 className="text-5xl font-bold text-center">
-                        {counterOn && <CountUp start={0} prefix="$" suffix=".75 M" end={33} duration={8} delay={0}></CountUp>}
+                        {counterOn && <CountUp start={0} prefix="$" suffix=".75M" end={33} duration={8} delay={0}></CountUp>}
                     </h1>
                     <h4 className="text-xl text-center">Created in Revenue</h4>
                 </div>
